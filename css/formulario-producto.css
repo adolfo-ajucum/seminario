@@ -1,0 +1,22 @@
+.flecha-atras {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.bck-azul {
+    background-color: #1D73A6;
+}
+
+.bck-grisClaro {
+    background-color: #ECECEC;
+}
+
+h5 {
+    margin-bottom: 5vh;
+}

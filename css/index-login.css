@@ -1,0 +1,53 @@
+/*ESTILOS INDEX*/
+
+img {
+    margin-left: 12.5%;
+}
+
+h1,
+h4 {
+    text-align: center;
+}
+
+
+/*ESTILOS LOGIN*/
+
+
+/*colores*/
+
+.bck-azul {
+    background-color: #1D73A6;
+}
+
+.bck-grisClaro {
+    background-color: #ECECEC;
+}
+
+
+/*padding*/
+
+.pdng-10 {
+    padding: 10vh;
+}
+
+
+/*margenes*/
+
+.mt-5 {
+    margin-top: 5vh;
+}
+
+.mt-10 {
+    margin-top: 10vh;
+}
+
+.mt-20 {
+    margin-top: 20vh;
+}
+
+
+/*seción btns*/
+
+#btns-login {
+    border: 3px solid black;
+}

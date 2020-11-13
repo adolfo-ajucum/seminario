@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Datos producto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/dist/sweetalert.css">
+    <link rel="stylesheet" href="../css/formulario-producto.css">
+</head>
+
+<body class="container">
+    <div>
+        <h4 class="center-align">Datos de producto
+            <a href="home.html"><i class="material-icons flecha-atras">arrow_back</i></a>
+        </h4>
+    </div>
+    <!-- seccion de nombre de producto y textarea -->
+    <section class="container">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field">
+                        <input id="nombreProducto" type="text" class="validate" placeholder="Máximo 30 caracteres">
+                        <label for="nombreProducto">Nombre de producto</label>
+                        <span id="contador" class="contador">0</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field">
+                        <textarea id="descripcionProducto" class="materialize-textarea" placeholder="Máximo 1000 caracteres"></textarea>
+                        <label for="descripcionProducto">Descripción</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- fin de seccion de nombre de producto y textarea -->
+
+    <!-- seccion para subir imagenes -->
+    <section class="container">
+        <h5 class="center"> Agrega imágenes</h5>
+        <div class="row">
+            <form class="col s12">
+                <div>
+                    <div class="input-field">
+                        <input id="imagen1" type="text" class="validate">
+                        <label for="imagen1">URL 1</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="imagen2" type="text" class="validate">
+                        <label for="imagen2">URL 2</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="imagen3" type="text" class="validate">
+                        <label for="imagen3">URL 3</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--fin de seccion para subir imagenes -->
+
+    <!-- seccion de datos de subasta -->
+    <section class="container">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6" id="aqui">
+                        <input id="precioInicial" type="text" class="validate" placeholder="Ingrese cantidad en pesos">
+                        <label for="precioInicial">Precio inicial</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="duracionSubasta" type="text" class="validate" placeholder="Ingrese # de minutos">
+                        <label for="duracionSubasta">Duración de subasta</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="tags" type="text" class="validate">
+                        <label for="tags">Tags</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="row">
+        <a href=home.html class="waves-effect waves-light btn bck-azul offset-s2 col s8 subastar">Subastar</a>
+    </div>
+
+    <!-- scripts de jquery para que funcione materialize -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/jwt-decode.min.js"></script>
+    <script src="../assets/dist/sweetalert.min.js"></script>
+    <script src="../js/formulario-producto.js"></script>
+</body>
+
+</html>

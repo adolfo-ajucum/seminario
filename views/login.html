@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ingresar</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<link rel="stylesheet" href="../assets/dist/sweetalert.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo.png">
+	<link rel="stylesheet" href="../css/index-login.css">
+</head>
+<body class="bck-grisClaro">
+	<div class="row mt-5">
+		<a href="home.html" class="offset-s3 col s6">
+			<img src="../assets/img/logo-texto.svg" alt="logo" class="responsive-img">
+		</a>
+	</div>
+	<!-- BOTONES -->
+	<section id="btns-login" class="container mt-10 pdng-10">
+		<div class="row">
+			<button id="ingresar" type="button" name="button" class="btn bck-azul waves-grey white-text offset-s2 col s8 modal-trigger" href="#modalIngreso"> INGRESAR </button>
+		</div>
+		<div class="row">
+			<button id="registrarse" type="button" name="button" class="btn bck-azul waves-grey white-text offset-s2 col s8 modal-trigger" href="#modalRegistro"> REGISTRARSE </button>
+		</div>
+	</section>
+	<!-- MODAL INGRESO -->
+	<div id="modalIngreso" class="modal">
+	    <div class="modal-content">
+			<h4 class="center"> Iniciar sesión </h4>
+			<br>
+			<!-- Usuario -->
+			<h5 class="row"> Usuario </h5>
+			<input id="usuario" type="text" name="" value="" class="row validate">
+			<!-- Contraseña -->
+			<h5 class="row"> Contraseña </h5>
+			<input id="password-login" type="password" name="" value="" class="row validate">
+	    </div>
+	    <div class="modal-footer center">
+	      <button id="btn-login" href="#!" class="modal-action modal-close waves-effect waves-grey btn bck-azul white-text">Ingresar</button>
+	    </div>
+	</div>
+	<!-- MODAL REGISTRO -->
+	<div id="modalRegistro" class="modal modal-fixed-footer">
+	  <div class="modal-content">
+		<h4 class="center">Ingresa tus datos</h4>
+		<br>
+		<!-- Formulario Datos -->
+		<form class="" action="index.html" method="post">
+			<div class="row">
+				<p class="col s4"> Nombre </p>
+				<input id="nombre" type="text" name="" value="" class="col s6 validate">
+			</div>
+			<div class="row">
+				<p class="col s4"> Apellido </p>
+				<input id="apellido" type="text" name="" value="" class="col s6 validate">
+			</div>
+			<div class="row">
+				<p class="col s4"> Correo </p>
+				<input id="correo" type="email" name="" value="" class="col s6 validate">
+			</div>
+			<div class="row">
+				<p class="col s4"> Contraseña</p>
+				<input id="password-registro" type="password" name="" value="" class="col s6 validate">
+			</div>
+		</form>
+	  </div>
+	  <div class="modal-footer">
+		<button id="btn-registrarse" class="modal-action modal-close waves-effect waves-grey btn bck-azul white-text"> Registrarse </button>
+	  </div>
+	</div>
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+	<script type="text/javascript" src="../assets/dist/sweetalert.min.js"></script>
+	<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

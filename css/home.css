@@ -1,0 +1,50 @@
+/*GENERALES*/
+
+body {
+    background-color: #ECECEC;
+    font-family: ‘Ubuntu’, sans-serif;
+}
+
+.texto-negro {
+    color: #000000;
+}
+
+.texto-blanco {
+    color: #FFFFFF;
+}
+
+.texto-azul {
+    color: #1D73A6;
+}
+
+.texto-gris--oscuro {
+    color: #807F80;
+}
+
+.fondo-azul {
+    background-color: #1D73A6;
+}
+
+.fondo-gris {
+    background-color: #ECECEC;
+}
+
+.fondo-blanco {
+    background-color: #FFFFFF;
+}
+
+.fondo-gris--oscuro {
+    background-color: #807F80;
+}
+
+
+/*NAVEGADOR*/
+
+.img-logo-texto {
+    width: 60px;
+    height: 60px;
+}
+
+#back-azul {
+    background-color: #1D73A6;
+}
