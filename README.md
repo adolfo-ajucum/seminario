@@ -5,6 +5,5 @@ La empresa (ficticia) Venta de Autos S.A, ha considerado expandir sus operacione
 
 
 demo:
-[Enlace sistema](http://amacnotes.bike)
-
-documentación: [Wiki](https://github.com/martinAjucum/seminario/wiki)
+[Enlace sistema](https://main.d2voasqzg0lug8.amplifyapp.com/views/home.html)
+documentación adicional: [Wiki](https://github.com/martinAjucum/seminario/wiki)

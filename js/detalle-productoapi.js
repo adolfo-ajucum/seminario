@@ -28,7 +28,7 @@ var plantillaproducto =
     '<h1 class="left-align texto-azul"><b>DETALLES</b></h1>' +
     '<h3 class="texto-negro"><b>"--titulo--"</b></h3>' +
     '<h4 class="texto-azul">Precio Actual <span>--baseprice--</span></h4>' +
-    '<h4 class="texto-gris--oscuro">Precio Inicio <span>$100</span></h4>' +
+    '<h4 class="texto-gris--oscuro">Precio Inicio <span>12.5</span></h4>' +
 
 
     '<div class="carousel">' +
@@ -100,7 +100,7 @@ var mostrardetalles = function(detalles) {
     botonsubasta.addEventListener("click", agregarsubasta);
     console.log(valorinput);
     valorinput.value = preciobase + 5;
-    $(.carousel).carousel();
+    $('.carousel').carousel();
 
 
 
